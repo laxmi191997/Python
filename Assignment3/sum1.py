@@ -1,8 +1,6 @@
-list=[1,2,3,4,5]
-num=int(input("Enter a value"))
-list.append(num)
+l=[]
+num=int(input("Enter a  number"))
+for i in range(1,num+1):
+    l.append(i)
 
-print("The final list is ",list)
-    
-
-
+print("New list:",l)
